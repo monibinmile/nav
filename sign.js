@@ -7,15 +7,6 @@ const confirmpass=document.querySelector("#conf-pass");
 const button=document.querySelector("#btn");
 addButton.addEventListner("click", (e)=>{
     e.preventDefault();
-    const first=first.value.trim();
-    const middle=middlename.value.trim();
-    const lastname=lastname.value.trim();
-    const email=email.value.trim();
-    const pass=password.value.trim();
-    const confirm=confirmpass.value.trim();
-    const btn=button.value.trim();
-
-
 })
 validateSign(()=> {
     const first=document.getElementById("f.name").value;

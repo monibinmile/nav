@@ -1,3 +1,33 @@
 .container{
     text-decoration: centre;
+    margin-left: 45%;
+    margin-top: 2%;
+    width:400px;
+    height: 400px;
+    background-color: bisque;
+}
+input{
+    text-align: center;
+    margin-top: 8%;
+}
+#m.name{
+    margin-top: 2px;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+#btn{
+    margin-top: 4%;
+    box-sizing: border-box;
+    margin-left: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+    text-align: center;
+}
+body{
+    background-color: blue;
 }

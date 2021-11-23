@@ -1,3 +1,21 @@
 .login{
     text-align: center;
+    box-sizing: border-box;
+    height: 356px;
+    width:300px;
+    margin-left: 45%;
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+}
+#btn{
+    padding-right: 5%;
+    padding-left:5%;
+}
+input{
+    margin-top: 4%;
+}
+body{
+    background-color: blue;
 }

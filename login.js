@@ -1,15 +1,27 @@
-const email=document.querySelector("#email");
-const password=document.querySelector("#pass");
-
-const btn=document.querySelector("#btn");
-addButton.addEventListner("click", (e)=>{
-    e.preventDefault();
-    const username=username.value;
-    const password=password.value;
-    if(username==="email" && password==="pass"){
-        alert("you have successfull logged in");
+ login(()=>
+{
+    const username = document.getElementById("#email").value;
+    const pass= document.getElementById("#pass").value;
+    const filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    if(username =='')
+    {
+        alert("please enter user name.");
     }
-    else{
-        alert("please fill correct email & password");
+    else if(pass=='')
+    {
+        alert("enter the password");
     }
-})
+    else if(!filter.test(email))
+    {
+        alert("Enter valid email id.");
+    }
+    else if(pass.length < 6 || pass.length > 6)
+    {
+        alert("Password min and max length is 6.");
+    }
+    else
+    {
+     alert('Thank You for Login ');
+   document.getElementById("#email").innerHTML=
+});
+  
